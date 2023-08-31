@@ -55,10 +55,13 @@
 		6035764F2AA02CBC005BA115 /* MakingCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				603576682AA02F08005BA115 /* Asset */,
+				603576672AA02F03005BA115 /* Util */,
+				603576662AA02EF6005BA115 /* CoreData */,
+				603576652AA02EE4005BA115 /* VIew */,
+				603576642AA02EDD005BA115 /* ViewModel */,
+				603576632AA02ED6005BA115 /* Model */,
 				603576502AA02CBC005BA115 /* MakingCardGameApp.swift */,
-				603576522AA02CBC005BA115 /* ContentView.swift */,
-				603576542AA02CBD005BA115 /* Assets.xcassets */,
-				603576592AA02CBD005BA115 /* Persistence.swift */,
 				6035765B2AA02CBD005BA115 /* MakingCardGame.xcdatamodeld */,
 				603576562AA02CBD005BA115 /* Preview Content */,
 			);
@@ -71,6 +74,51 @@
 				603576572AA02CBD005BA115 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		603576632AA02ED6005BA115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		603576642AA02EDD005BA115 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		603576652AA02EE4005BA115 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				603576522AA02CBC005BA115 /* ContentView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		603576662AA02EF6005BA115 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				603576592AA02CBD005BA115 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		603576672AA02F03005BA115 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		603576682AA02F08005BA115 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				603576542AA02CBD005BA115 /* Assets.xcassets */,
+			);
+			path = Asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
