@@ -13,6 +13,10 @@
 		603576582AA02CBD005BA115 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603576572AA02CBD005BA115 /* Preview Assets.xcassets */; };
 		6035765A2AA02CBD005BA115 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603576592AA02CBD005BA115 /* Persistence.swift */; };
 		6035765D2AA02CBD005BA115 /* MakingCardGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6035765B2AA02CBD005BA115 /* MakingCardGame.xcdatamodeld */; };
+		6035766A2AA036FD005BA115 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603576692AA036FD005BA115 /* CardInfo.swift */; };
+		6035766C2AA2D5C1005BA115 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035766B2AA2D5C1005BA115 /* CardViewModel.swift */; };
+		6035766F2AA2DFD3005BA115 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035766E2AA2DFD3005BA115 /* Testing.swift */; };
+		603576712AA2DFFC005BA115 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603576702AA2DFFC005BA115 /* TestingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		603576572AA02CBD005BA115 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		603576592AA02CBD005BA115 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6035765C2AA02CBD005BA115 /* MakingCardGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakingCardGame.xcdatamodel; sourceTree = "<group>"; };
+		603576692AA036FD005BA115 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		6035766B2AA2D5C1005BA115 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		6035766E2AA2DFD3005BA115 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		603576702AA2DFFC005BA115 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 		6035764F2AA02CBC005BA115 /* MakingCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				6035766D2AA2DFCA005BA115 /* Test */,
 				603576682AA02F08005BA115 /* Asset */,
 				603576672AA02F03005BA115 /* Util */,
 				603576662AA02EF6005BA115 /* CoreData */,
@@ -79,6 +88,7 @@
 		603576632AA02ED6005BA115 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				603576692AA036FD005BA115 /* CardInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -86,6 +96,7 @@
 		603576642AA02EDD005BA115 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6035766B2AA2D5C1005BA115 /* CardViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -119,6 +130,15 @@
 				603576542AA02CBD005BA115 /* Assets.xcassets */,
 			);
 			path = Asset;
+			sourceTree = "<group>";
+		};
+		6035766D2AA2DFCA005BA115 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6035766E2AA2DFD3005BA115 /* Testing.swift */,
+				603576702AA2DFFC005BA115 /* TestingView.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6035766A2AA036FD005BA115 /* CardInfo.swift in Sources */,
+				6035766F2AA2DFD3005BA115 /* Testing.swift in Sources */,
 				6035765A2AA02CBD005BA115 /* Persistence.swift in Sources */,
+				6035766C2AA2D5C1005BA115 /* CardViewModel.swift in Sources */,
 				603576532AA02CBC005BA115 /* ContentView.swift in Sources */,
+				603576712AA2DFFC005BA115 /* TestingView.swift in Sources */,
 				6035765D2AA02CBD005BA115 /* MakingCardGame.xcdatamodeld in Sources */,
 				603576512AA02CBC005BA115 /* MakingCardGameApp.swift in Sources */,
 			);

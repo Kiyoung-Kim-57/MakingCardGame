@@ -9,13 +9,13 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+//    @ObservedObject var card = CardNumInfo()
     var body: some View {
         ZStack{
-            Text("dd")
+            Text("")
         }
     }
 }
-
 
 
 struct ContentView_Previews: PreviewProvider {
